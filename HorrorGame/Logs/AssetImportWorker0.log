@@ -1,0 +1,718 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.24f1 (334eb2a0b267) revision 3362482'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GitС‹/Eto_Ne_Oni/HorrorGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54981
+Successfully changed project path to: D:/GitС‹/Eto_Ne_Oni/HorrorGame
+D:/GitС‹/Eto_Ne_Oni/HorrorGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2872] Host "[IP] 192.168.1.88 [Port] 0 [Flags] 2 [Guid] 3194760486 [EditorId] 3194760486 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PDNKLT5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2872] Host "[IP] 192.168.1.88 [Port] 0 [Flags] 2 [Guid] 3194760486 [EditorId] 3194760486 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PDNKLT5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 4.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.24f1 (334eb2a0b267)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitС‹/Eto_Ne_Oni/HorrorGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.24f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Unity/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003599 seconds.
+- Loaded All Assemblies, in  0.302 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.234 seconds
+Domain Reload Profiling: 536ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (234ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (182ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.530 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.614 seconds
+Domain Reload Profiling: 1144ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (614ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (485ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3554.
+Memory consumption went from 121.2 MB to 121.2 MB.
+Total: 2.553000 ms (FindLiveObjects: 0.186900 ms CreateObjectMapping: 0.103900 ms MarkObjects: 2.167700 ms  DeleteObjects: 0.093400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 157941.967230 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(97e107562e1acd14e9aa9ef6e59b1cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(97e107562e1acd14e9aa9ef6e59b1cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec561d8497f2e6b87895607ba5ec7b3a') in 0.002242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 265.119713 seconds.
+  path: Assets/BlackantMasterStudio
+  artifactKey: Guid(922498b079f5695408da7b84c3745716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio using Guid(922498b079f5695408da7b84c3745716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2bc2d52b915e4ab471d640fc73b3a1') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.852768 seconds.
+  path: Assets/BlackantMasterStudio/The Shed
+  artifactKey: Guid(995dc22e43dfdff49a76f30a05b5f437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed using Guid(995dc22e43dfdff49a76f30a05b5f437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca3f4088859e4495b57ae57c9d5fd30') in 0.000347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.969241 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Shed.FBX
+  artifactKey: Guid(8d44a8bf542ec854ab6a6c818ea10b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Shed.FBX using Guid(8d44a8bf542ec854ab6a6c818ea10b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd2773d2cfc7c3f2bb68a8e85f474bd') in 1.751728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 485
+========================================================================
+Received Import Request.
+  Time since last request: 212.311466 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Shed.FBX
+  artifactKey: Guid(8d44a8bf542ec854ab6a6c818ea10b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Shed.FBX using Guid(8d44a8bf542ec854ab6a6c818ea10b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ee1e0bd4160f3e08160841c25e5410') in 0.529260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 485
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.370 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.796 seconds
+Domain Reload Profiling: 1166ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (796ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3583.
+Memory consumption went from 129.8 MB to 129.7 MB.
+Total: 2.978800 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.092700 ms MarkObjects: 2.627200 ms  DeleteObjects: 0.055700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28.004983 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures
+  artifactKey: Guid(b7e8043d8a147354f8bded60d992a925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures using Guid(b7e8043d8a147354f8bded60d992a925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d89b7141ebd76065d719bf095ca583') in 0.002684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.057392 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/3 TourneVis_3_Tournevis_color.tga
+  artifactKey: Guid(493e316f381aea048975a841c58814ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/3 TourneVis_3_Tournevis_color.tga using Guid(493e316f381aea048975a841c58814ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97735f73e6fed9899b401d9f548024c') in 0.039724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Plafond_color.tga
+  artifactKey: Guid(7d7c5e33ecc9d614e9182523ba381940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Plafond_color.tga using Guid(7d7c5e33ecc9d614e9182523ba381940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0036e345779aa9fc6527f1b78fd441e6') in 0.006670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Bidon_nmap.tga
+  artifactKey: Guid(6e31ccb7130109d449a308afd0b473f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Bidon_nmap.tga using Guid(6e31ccb7130109d449a308afd0b473f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a86722d177c8ed2c5e40f42819eb232') in 0.027641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Fenetre_Shed Window_nmap.tga
+  artifactKey: Guid(213490fc64628d44bb49fef81a80beb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Fenetre_Shed Window_nmap.tga using Guid(213490fc64628d44bb49fef81a80beb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b39c86bf21f24db564dfbecdcb007e5') in 0.006000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Bois Coupe_specular.tga
+  artifactKey: Guid(12225075835e24b40abb56301c9a3071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Bois Coupe_specular.tga using Guid(12225075835e24b40abb56301c9a3071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b807012b76d0187b952302163ca746') in 0.005219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/AeroMachine LP_AeroMachine_specular.tga
+  artifactKey: Guid(01382d9984555fb4292301e391883bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/AeroMachine LP_AeroMachine_specular.tga using Guid(01382d9984555fb4292301e391883bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6769d50a81f3e695742f8a5bc3e8a11') in 0.006106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Caisse_nmap.tga
+  artifactKey: Guid(f2c51a3d1b094fb439bf383dbf2b0359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Caisse_nmap.tga using Guid(f2c51a3d1b094fb439bf383dbf2b0359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d3057040b690e8baa33df5fce781fc') in 0.006335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Old Lavabo_OldLavabo_color.tga
+  artifactKey: Guid(8667e8bf6a9e9ac4abc863db5eecdddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Old Lavabo_OldLavabo_color.tga using Guid(8667e8bf6a9e9ac4abc863db5eecdddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2a96b9f485c8ed50f763d95c5f6801') in 0.006118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Bois Coupe_color.tga
+  artifactKey: Guid(2b09b0db5fad80b42890d8cf14b223e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Bois Coupe_color.tga using Guid(2b09b0db5fad80b42890d8cf14b223e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a79e98dd5a6112ba0374f1654ea7fd3') in 0.005969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Chaise_color.tga
+  artifactKey: Guid(cf27357ecfcf60549997b79dc1ad247f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Chaise_color.tga using Guid(cf27357ecfcf60549997b79dc1ad247f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508ff6f5ebcb36376e2bee210a060a85') in 0.005332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/DecalsRusted_spec.tga
+  artifactKey: Guid(57f8ffa6680fdd044a2752a5134fa4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/DecalsRusted_spec.tga using Guid(57f8ffa6680fdd044a2752a5134fa4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7c26d6e4deccbac9cf07aa8af889a1') in 0.005206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Grande EcheLle_Grande Echelle_color.tga
+  artifactKey: Guid(1d92d5036dde2514da8ff3d40b18f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Grande EcheLle_Grande Echelle_color.tga using Guid(1d92d5036dde2514da8ff3d40b18f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094c149aa3352adf0daf995b573c1027') in 0.006750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/DecalsRusted0005_2_S.jpg
+  artifactKey: Guid(1aa6319c8e7b5274d993ec0420a9842e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/DecalsRusted0005_2_S.jpg using Guid(1aa6319c8e7b5274d993ec0420a9842e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af350f56d4eb6d17d2c2b46491aa09b7') in 0.005244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Old Lavabo_OldLavabo_nmap.tga
+  artifactKey: Guid(6d0a722e6d61dde449928638f3582869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Old Lavabo_OldLavabo_nmap.tga using Guid(6d0a722e6d61dde449928638f3582869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed4b31702339eecf2bd0475b95977de') in 0.006671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Chaine_nmap.tga
+  artifactKey: Guid(7b2e152deb27cce47b805c0de1a2383a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Chaine_nmap.tga using Guid(7b2e152deb27cce47b805c0de1a2383a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c956019e7e008159aae0381e99eeb5') in 0.007261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Hache_specular.tga
+  artifactKey: Guid(827f452186b789245815e36665532e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Hache_specular.tga using Guid(827f452186b789245815e36665532e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11ee5c4abcc3ed565f1af1c7e5bad85') in 0.004791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Boite_Old Box_color.tga
+  artifactKey: Guid(a8c73520447844a4db725c1d68813234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Boite_Old Box_color.tga using Guid(a8c73520447844a4db725c1d68813234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518cd39be21f56480c4b8e9d2977d744') in 0.005408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/CutMachine_nmap.tga
+  artifactKey: Guid(ff5c173a1c15da941a40ac8a37ed52a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/CutMachine_nmap.tga using Guid(ff5c173a1c15da941a40ac8a37ed52a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14c041c7863a9529461c1bfb86e324e') in 0.006915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Boite_Old Box_specular.tga
+  artifactKey: Guid(871d36da52f4b984181f09529db89b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Boite_Old Box_specular.tga using Guid(871d36da52f4b984181f09529db89b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bca487aae501a7b7c84c7d67d11a82e') in 0.006033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Decal_Debris01_NRM.tga
+  artifactKey: Guid(2070546588c56984ab28c5cd55d794b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Decal_Debris01_NRM.tga using Guid(2070546588c56984ab28c5cd55d794b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea8ff846d1cd8713a7d31889becad41') in 0.007838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Etagere_specular.tga
+  artifactKey: Guid(64bab5d25ef78d043b4ae3cc3e467bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Etagere_specular.tga using Guid(64bab5d25ef78d043b4ae3cc3e467bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d333b71ad025fa88726fb0c7a2e7a75') in 0.006366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Marteau LP_Marteau_specular.tga
+  artifactKey: Guid(211a8e420b1dc4545baf6e6bf5f51601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Marteau LP_Marteau_specular.tga using Guid(211a8e420b1dc4545baf6e6bf5f51601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd2fe2424588f16a1476c6e0d689917') in 0.005635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Caisse_color.tga
+  artifactKey: Guid(89bd6c2e31e18354b91500d2596da4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Caisse_color.tga using Guid(89bd6c2e31e18354b91500d2596da4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecc4f64c9093f8c8ef9c29c74588b79') in 0.007869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Plafond_specular.tga
+  artifactKey: Guid(a3d7ae56e508729479048f8700c18e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Plafond_specular.tga using Guid(a3d7ae56e508729479048f8700c18e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5896f9c2ed4bfe2c05cf3dbec0a82392') in 0.005666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Brouette_specular.tga
+  artifactKey: Guid(a02af8f92a3c7a94c821eaf683b48d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Brouette_specular.tga using Guid(a02af8f92a3c7a94c821eaf683b48d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a03db7322b2a96f958c3eb91a6d22e') in 0.006272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/CutMachine_color.tga
+  artifactKey: Guid(54bab8dee0a097b4c8c8e39fa1014489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/CutMachine_color.tga using Guid(54bab8dee0a097b4c8c8e39fa1014489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb694e863d8642fdd4dc3f02ac080a1') in 0.005537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Petite Echelle_color.tga
+  artifactKey: Guid(1a9ee8c6bb61adc40ab270fb5b3ec5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Petite Echelle_color.tga using Guid(1a9ee8c6bb61adc40ab270fb5b3ec5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4851046174cb0e7e194a4cdb580907e') in 0.005892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Brouette_nmap.tga
+  artifactKey: Guid(403efc2f9e67866468ce3e4841500c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Brouette_nmap.tga using Guid(403efc2f9e67866468ce3e4841500c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5c0cfbbbf655445adef60ee34eccae') in 0.006500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/DecalsRusted_nrm.jpg
+  artifactKey: Guid(dcfe93b7fa987044cb6e1dd82e008f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/DecalsRusted_nrm.jpg using Guid(dcfe93b7fa987044cb6e1dd82e008f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fd91d539e2354127c9078e6f549ce5') in 0.007120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/CutMachine_specular.tga
+  artifactKey: Guid(3f397323fcab3a246a95f6da866dc3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/CutMachine_specular.tga using Guid(3f397323fcab3a246a95f6da866dc3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a8cd46564141674d7bc2a536004886') in 0.004980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Fenetre_Shed Window_specular.tga
+  artifactKey: Guid(0b90c978fb9868f4bb7cc93abeb3f9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Fenetre_Shed Window_specular.tga using Guid(0b90c978fb9868f4bb7cc93abeb3f9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e88079473527716923b29ee9f7291b') in 0.006420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/3 TourneVis_3_Tournevis_specular.tga
+  artifactKey: Guid(fc792f72e66569c44a534dbd85324d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/3 TourneVis_3_Tournevis_specular.tga using Guid(fc792f72e66569c44a534dbd85324d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57fe885796409a64c32f1394ffb7209') in 0.004847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Etagere_nmap.tga
+  artifactKey: Guid(8c194324757df994db65e6f9b2502200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Etagere_nmap.tga using Guid(8c194324757df994db65e6f9b2502200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998457f1f0bb96f751e785b34da90b6d') in 0.008242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Petite Echelle_nmap.tga
+  artifactKey: Guid(98b5baee2cc335c4a99c7a6b10973688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Petite Echelle_nmap.tga using Guid(98b5baee2cc335c4a99c7a6b10973688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41c4da606bc23b2b8f295eae931e6d0') in 0.006540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Ampoule_color.tga
+  artifactKey: Guid(f497fd8a6eab2c4429593d9dc419af1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Ampoule_color.tga using Guid(f497fd8a6eab2c4429593d9dc419af1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3673b932a95d67a6551bf29312a3d8a4') in 0.004897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/PLaque_Plaque_nmap.tga
+  artifactKey: Guid(4d6ea5bc5ed56234085cd0052b85ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/PLaque_Plaque_nmap.tga using Guid(4d6ea5bc5ed56234085cd0052b85ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db62c26de67a687cf6ea5835d60754b3') in 0.005638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.563699 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/PlywoodOld0013_2_nrm.jpg
+  artifactKey: Guid(b92dd77ada9d673489514bcfca278d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/PlywoodOld0013_2_nrm.jpg using Guid(b92dd77ada9d673489514bcfca278d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f8ce504ca31bbacc8f6bc6ea0b27ac') in 0.006033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/SerreJoints_color.tga
+  artifactKey: Guid(038e383133e35e244b903b633dfa3c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/SerreJoints_color.tga using Guid(038e383133e35e244b903b633dfa3c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0282781b530c85ec6d4d94b81f862d1c') in 0.005421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Tableau a Outils_Tableau Tools_color.tga
+  artifactKey: Guid(11e45ec77ad08af4cb7915b072494a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Tableau a Outils_Tableau Tools_color.tga using Guid(11e45ec77ad08af4cb7915b072494a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda2f744d85851d42705087c6ed2c231') in 0.006503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Pompe_nmap.tga
+  artifactKey: Guid(1d27a99c94ce74947818387edbdc484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Pompe_nmap.tga using Guid(1d27a99c94ce74947818387edbdc484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ea5287eaf128fec23269adf82c48dc') in 0.008464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/SerreJoints_nmap.tga
+  artifactKey: Guid(4fd3a8688dc848948951aa977cbd428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/SerreJoints_nmap.tga using Guid(4fd3a8688dc848948951aa977cbd428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc2b7aab63b6e963a1c8b1ff196f49d') in 0.007584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Tableau_nmap.tga
+  artifactKey: Guid(a031f656d6af5e34c9419f4d8bbee904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Tableau_nmap.tga using Guid(a031f656d6af5e34c9419f4d8bbee904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f70ab18ce44d57bc3c920fe141bdd1a') in 0.008805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Pots de fleurs_Pots de Fleurs_color.tga
+  artifactKey: Guid(9f6a8d467939dd345a97529703a7a58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Pots de fleurs_Pots de Fleurs_color.tga using Guid(9f6a8d467939dd345a97529703a7a58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f1c6e20efa538cd91431d7e6f51278') in 0.006601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014847 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Tableau_specular.tga
+  artifactKey: Guid(282ae4aa82b74094d8c341fee15c2ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Tableau_specular.tga using Guid(282ae4aa82b74094d8c341fee15c2ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74cb1307979ceae53b514b37e80170e') in 0.005730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Tuyaux.jpg
+  artifactKey: Guid(7d2f293d76bda6641a465ba37ed17939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Tuyaux.jpg using Guid(7d2f293d76bda6641a465ba37ed17939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f7b4ea54160e7526c6942f66129581') in 0.004699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/WoodCutter_WoodClamper_specular.tga
+  artifactKey: Guid(d0fbcc5eba033cf42b664ba33ad7d127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/WoodCutter_WoodClamper_specular.tga using Guid(d0fbcc5eba033cf42b664ba33ad7d127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf3f835ec1850284927fc9b2b2a5730') in 0.006256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Tretaux_nmap.tga
+  artifactKey: Guid(db1957ecd510e784885324ee4f51014f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Tretaux_nmap.tga using Guid(db1957ecd510e784885324ee4f51014f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee2b992c17d58617548c783e686abab') in 0.005810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/ToolBox_specular.tga
+  artifactKey: Guid(f018e7350eec4aa46961d3607283972d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/ToolBox_specular.tga using Guid(f018e7350eec4aa46961d3607283972d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cedfa2c8963abc2c35fd121e7947e29') in 0.006904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/WoodCutter_WoodClamper_color.tga
+  artifactKey: Guid(4cc409b6400c4b54493f88baffb0b7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/WoodCutter_WoodClamper_color.tga using Guid(4cc409b6400c4b54493f88baffb0b7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cc45eb2323174f5d2228238df1ac79') in 0.006258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/Tronc_nmap.tga
+  artifactKey: Guid(91fb42043d98c604a9a520fcf3caa916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/Tronc_nmap.tga using Guid(91fb42043d98c604a9a520fcf3caa916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac7c632039892d083be0a61b1f26ed2') in 0.006931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/WoodPlanksDirty0063_M_COLOR.jpg
+  artifactKey: Guid(9add8ab4a650c544486aaadb2df74833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/WoodPlanksDirty0063_M_COLOR.jpg using Guid(9add8ab4a650c544486aaadb2df74833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09160760c2687afbc1a9f93c44eaead') in 0.008825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BlackantMasterStudio/The Shed/Textures/WoodPlanksVarious0010_1_L_Nrm.jpg
+  artifactKey: Guid(8ba7a8857ca9a364c881b0f4f1e52c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackantMasterStudio/The Shed/Textures/WoodPlanksVarious0010_1_L_Nrm.jpg using Guid(8ba7a8857ca9a364c881b0f4f1e52c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90b4765f6412cb800ea055399279aed') in 0.009275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
